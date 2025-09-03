@@ -1,0 +1,66 @@
+<style>
+
+@font-face {
+    font-family: 'Arial Rounded MT Pro';
+    src: url('https://raw.githubusercontent.com/tatianaardila011-rgb/ResourcesSharePoint_Propuestas/main/ArialRoundedMTforSE-Bold_Latin-a6b059468f194ec7aaa95c08a46a960e.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.button-container {
+    display: flex;
+    justify-content: space-around; /* Opcional: ajusta el espaciado entre los botones */
+    gap: 10px; /* Espacio entre los botones */
+    padding: 20px 0; /* Espaciado superior e inferior del contenedor */
+}
+
+.custom-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    padding: 12px 160px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-decoration: none;
+    font-family: 'Arial Rounded MT Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.custom-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    background: #fcfcfc;
+}
+
+.title {
+    font-family: 'Arial Rounded MT Pro', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #333; 
+    text-align: center;
+    margin-bottom: 20px; /* Espacio entre el título y los botones */
+}
+</style>
+
+<div class="container">
+    <div class="title">Repositorio de Ofertas</div>
+
+    <div class="button-container">
+        <a href="https://schneiderelectric.sharepoint.com/:f:/r/sites/VentasColombia/Shared%20Documents/2023?csf=1&web=1&e=9Ukj7f
+    " onclick="window.open(this.href, '_blank'); return false;" class="custom-button">
+            <span>2023</span>
+        </a>
+
+        <a href="https://schneiderelectric.sharepoint.com/:f:/r/sites/VentasColombia/Shared%20Documents/2024?csf=1&web=1&e=gn6eaC" onclick="window.open(this.href, '_blank'); return false;" class="custom-button">
+            <span>2024</span>
+        </a>
+
+        <a href="https://schneiderelectric.sharepoint.com/:f:/r/sites/VentasColombia/Shared%20Documents/2025/OFERTAS?csf=1&web=1&e=9VRzbB" onclick="window.open(this.href, '_blank'); return false;" class="custom-button">
+            <span>2025</span>
+        </a>
+    </div>
+</div>
