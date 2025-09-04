@@ -75,9 +75,16 @@
     transform: scaleX(1); /* La línea sale en todo el botón */
 }
 
+.main-container {
+    width: 800px; /* Define el ancho deseado */
+    height: 600px; /* Define la altura deseada */
+    overflow: hidden; /* Opcional: para ocultar el scroll si el contenido es más grande */
+}
+
 </style>
 
 <div class="container">
+    <div class="main-container">
     
     <div class="button-grid">
         <a href="https://buyautomation.se.com/" onclick="window.open(this.href, '_blank'); return false;" class="custom-button">
@@ -173,4 +180,5 @@
         </a>
         </a>
     </div>
+</div>
 </div>
